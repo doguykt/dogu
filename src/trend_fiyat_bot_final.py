@@ -12,7 +12,7 @@ from apscheduler.triggers.interval import IntervalTrigger
 from playwright.async_api import async_playwright, TimeoutError as PWTimeout
 
 # === Telegram Bot Token ===
-BOT_TOKEN = "8443187741:AAG7TCDQdS7_AeIaYXefGv7pizcH_XVSza8"  # ← kendi token'ını buraya gir
+BOT_TOKEN = "8378902892:AAHCqldjSFsjqP02aIzjzfk18V0ig-aGy64"  # ← kendi token'ını buraya gir
 
 # === Veritabanı ===
 DB_FILE = "urunler.db"
@@ -253,3 +253,4 @@ if __name__ == "__main__":
     import nest_asyncio
     nest_asyncio.apply()
     asyncio.run(main())
+
